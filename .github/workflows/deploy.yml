@@ -32,5 +32,5 @@ jobs:
     - name: Deploy to Lambda
       run: |
         aws lambda update-function-code \
-          --function-name MyGitHubLambda \
+          --function-name github_testing \
           --zip-file fileb://lambda_function.zip
